@@ -1,18 +1,33 @@
 .headerContainer {
     margin-left: 50px;
     margin-right: 50px;
-    padding-top: 5vhhvh;
+    padding-top: 5px;
 }
 
 a {
     margin-left: 10px;
     margin-right: 10px;
+    color: inherit;
+    text-decoration: underline;
 }
 
 .navbarLinks {
-    padding-top: 25px;
+    padding-top: 0px;
 }
 
 .navbarUser {
     float: right;
+}
+
+input {
+    background-color: aliceblue;
+}
+
+.Logo {
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+}
+
+.titleStyle {
+    margin-left: 20vw;
 }

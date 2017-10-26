@@ -1,7 +1,8 @@
 .middleContainerStyle {
-    height: 79vh;
-    background-color: black;
+    height: 75vh;
+    background-image: url('../.././Assets/Filmbg.jpg');
     margin: 0;
     padding: 0;
     width: 100vw;
+
 }

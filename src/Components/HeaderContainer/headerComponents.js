@@ -19,9 +19,13 @@ const HeaderComponents = () => (
 
         <div className="navbar row headerContainer">
             <div className="navbarUser">
-                <h5>Log In</h5><input placehohlder="username"/>
+                <h5>Log In</h5>
+                <input placeholder="username"/>
                 <h5>Password</h5>
                 <input placeholder="password" />
+            </div>
+            <div className="Logo">
+                <span className="titleStyle">In Awe of Nature's Sway</span>
             </div>
             <div className="navbarLinks">
                 <Link to="/">Home</Link>
@@ -29,6 +33,7 @@ const HeaderComponents = () => (
                 <Link to="/Cast">Cast & Crew</Link>
                 <Link to="/Scenes">Scene Information</Link>
             </div>
+
         </div>
 
 
