@@ -23,10 +23,19 @@ input {
     background-color: aliceblue;
 }
 
-.Logo {
-    font-family: 'Amatic SC', cursive;
-    font-size: 100px;
-}
+/* @media screen and (min-width: 1400) { */
+    .Logo {
+        font-family: 'Amatic SC', cursive;
+        font-size: 100px;
+    }
+/* } */
+/* 
+@media screen and (min-width: 768) { */
+    /* .Logo {
+        font-family: 'Amatic SC', cursive;
+        font-size: 50px;
+    } */
+/* } */
 
 .titleStyle {
     margin-left: 20vw;
